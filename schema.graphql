@@ -1,0 +1,12 @@
+type Tenses {
+  id: Int
+  present: Present
+}
+
+type Present {
+  word: String
+}
+
+type Query {
+  getPresent: Tenses
+}
